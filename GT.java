@@ -4,6 +4,7 @@ public class GT implements RacingCar{
 
      // Constructor
      public GT(){
+        System.out.println("GT Car");
 
     }
      public GT(String carbrand){

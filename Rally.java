@@ -4,7 +4,7 @@ public class Rally  implements RacingCar{
 
      // Constructor
      public Rally(){
-
+        System.out.println("Rally Car");
     }
      public Rally(String carbrand){
          this.carbrand=carbrand;

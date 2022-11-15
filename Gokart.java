@@ -4,7 +4,7 @@ public class Gokart implements RacingCar {
 
      // Constructor
      public Gokart(){
-
+        System.out.println("Gokart Car");
     }
      public Gokart(String carbrand){
          this.carbrand=carbrand;

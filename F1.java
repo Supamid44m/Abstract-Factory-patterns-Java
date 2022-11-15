@@ -5,7 +5,7 @@ public class F1 implements RacingCar {
     
    // Constructor
     public F1(){
-
+        System.out.println("F1 Car");
    }
     public F1(String carbrand){
         this.carbrand=carbrand;

@@ -8,6 +8,10 @@ public class AbstractFactoryPatternDemo {
         RacingCar car2=OpenWheelFactory.BuildRacingcar("Gokart");
         car2.showinfo();
 
+        AbstractFactory StockFactory=FactoryProducer.getFactory(false);
+        RacingCar car3=StockFactory.BuildRacingcar("GT");
+        car3.showinfo();
+
     }
     
 }
