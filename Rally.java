@@ -1,6 +1,6 @@
-public class Rally {
+public class Rally  implements RacingCar{
     String carbrand;
-    final int tiressize = 10;
+    final int tiressize = 15;
 
      // Constructor
      public Rally(){

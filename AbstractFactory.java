@@ -1,3 +1,3 @@
 public abstract class AbstractFactory {
-    abstract RacingCar BuildRacingcar(String carclass) ;
+    abstract RacingCar BuildRacingcar(String carType) ;
  }

@@ -1,6 +1,6 @@
-public class GT {
+public class GT implements RacingCar{
     String carbrand;
-    final int tiressize = 10;
+    final int tiressize = 18;
 
      // Constructor
      public GT(){

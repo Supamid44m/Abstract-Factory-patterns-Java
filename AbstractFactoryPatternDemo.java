@@ -1,11 +1,14 @@
-/* 
- public class AbstractFactoryPatternDemo {
+public class AbstractFactoryPatternDemo {
     public static void main(String[] args) {
-        AbstractFactory Factory = FactoryProducer.getFactory(false);
-        F1 car1 = Factory.BuildRacingcar();
+        AbstractFactory OpenWheelFactory = FactoryProducer.getFactory(true);
+        RacingCar car1=OpenWheelFactory.BuildRacingcar("F1");
+        car1.setcarbrand("ferrari");
         car1.showinfo();
+
+        RacingCar car2=OpenWheelFactory.BuildRacingcar("Gokart");
+        car2.showinfo();
 
     }
     
 }
-*/
+
